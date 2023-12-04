@@ -1,0 +1,3 @@
+.idea
+./producer-rabbitmq/target
+./listener-rabbitmq/target

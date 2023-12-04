@@ -1,0 +1,29 @@
+services:
+  rabbitmq:
+    image: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASS: password
+    ports:
+      - "15672:15672"
+      - "5672:5627"
+
+  producer:
+    image: producer
+    build: ./producer-rabbitmq/
+    environment:
+      RABBIT_GROUP: "defaultGroup"
+      RABBIT_HOST: rabbitmq
+      RABBIT_PORT: 5672
+      RABBIT_USER: user
+      RABBIT_PASSWORD: password
+
+  listener:
+    image: listener
+    build: ./listener-rabbitmq/
+    environment:
+      RABBIT_GROUP: "defaultGroup"
+      RABBIT_HOST: rabbitmq
+      RABBIT_PORT: 5672
+      RABBIT_USER: user
+      RABBIT_PASSWORD: password

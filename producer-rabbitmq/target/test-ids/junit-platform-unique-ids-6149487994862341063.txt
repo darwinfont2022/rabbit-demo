@@ -1,0 +1,1 @@
+[engine:junit-jupiter]/[class:com.darwinfont.demorabbitmq.ProducerImpRabbitmqApplicationTests]/[method:contextLoads()]

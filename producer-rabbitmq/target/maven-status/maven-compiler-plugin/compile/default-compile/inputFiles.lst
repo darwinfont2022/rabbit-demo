@@ -1,0 +1,9 @@
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/service/output/Producer.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/ProducerRabbitmqApplication.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/domain/EmployeeRegistrationSource.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/configuration/RabbitConfigurationTemplate.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/controller/DemoController.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/service/output/ProducerImp.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/domain/Employee.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/domain/MyCorrelationData.java
+/home/darwin/Escritorio/proyects/rabbitmq/producer-rabbitmq/src/main/java/com/darwinfont/demorabbitmq/service/input/Listener.java

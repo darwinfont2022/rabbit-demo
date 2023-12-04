@@ -1,0 +1,31 @@
+#spring:
+#  cloud:
+#    stream:
+#      bindings:
+#        input-in-0: # Entrada
+#          group: DemoGroup # Grupo de entrada
+#          consumer:
+#            batch-mode: true # Consumo por lotes
+#        output-out-0: # Salida
+#          producer:
+#            error-channel-enabled: true # canal de error para el productor
+#      source: output # Canal de salida
+#      rabbit:
+#        bindings:
+#          output-out-0: # Ruta Canal de salida
+#            producer:
+#              useConfirmHeader: true # Confirmacion de mensage enviado
+#          input-in-0: # Canal de entrada
+#            consumer:
+#              auto-bind-dlq: true # cola de reintentos
+#              batch-size: 10 #  Tama�o del lote para el consumidor
+#
+#  rabbitmq:
+#    publisher-confirm-type: correlated
+#    publisher-returns: true
+#    host: localhost
+#    port: 5672
+#    username: user
+#    password: password
+#
+#

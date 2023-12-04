@@ -1,0 +1,9 @@
+com/darwinfont/demorabbitmq/ProducerRabbitmqApplication.class
+com/darwinfont/demorabbitmq/domain/EmployeeRegistrationSource.class
+com/darwinfont/demorabbitmq/domain/MyCorrelationData.class
+com/darwinfont/demorabbitmq/controller/DemoController.class
+com/darwinfont/demorabbitmq/service/input/Listener.class
+com/darwinfont/demorabbitmq/domain/Employee.class
+com/darwinfont/demorabbitmq/configuration/RabbitConfigurationTemplate.class
+com/darwinfont/demorabbitmq/service/output/ProducerImp.class
+com/darwinfont/demorabbitmq/service/output/Producer.class
